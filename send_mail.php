@@ -45,6 +45,6 @@ $to = "prince.grimbyte@gmail.com";
 $headers = "From: $from";
 
 mail($to,$subject,$message,$headers);
-
+echo "mail sent";
 
 }
